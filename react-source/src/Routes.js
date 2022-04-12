@@ -8,19 +8,19 @@ const Footer = lazy(() => import("./components/Footer"));
 const Loader = lazy(() => import("./components/Loader"));
 
 const Routes = () => {
-    const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down("md"));
-    return (
-        <>
-            <Loader />
-            <Navbar />
-            {!isMobile && <Social />}
-            <Switch>
-                <Route exact path="/" component={MainHome} />
-            </Switch>
-            <Footer />
-        </>
-    );
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  return (
+    <>
+      <Loader />
+      <Navbar />
+      {!isMobile && <Social />}
+      <Switch>
+        <Route exact path="/" component={MainHome} />
+      </Switch>
+      <Footer />
+    </>
+  );
 };
 
 export default Routes;

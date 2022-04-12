@@ -5,26 +5,27 @@ import en from "./assets/translations/en.json";
 import fr from "./assets/translations/fr.json";
 
 const resources = {
-    en: {
-        translation: en,
-    },
-    fr: {
-        translation: fr,
-    },
+  en: {
+    translation: en,
+  },
+  fr: {
+    translation: fr,
+  },
 };
 
-i18n.use(LanguageDetector)
-    .use(initReactI18next)
-    .init({
-        resources,
-        fallbackLng: "en",
-        detection: {
-            order: ["cookie", "localStorage", "navigator", "htmlTag"],
-            caches: ["cookie"],
-        },
-        // interpolation: {
-        //     escapeValue: false,
-        // },
-    });
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources,
+    fallbackLng: "en",
+    detection: {
+      order: ["cookie", "localStorage", "navigator", "htmlTag"],
+      caches: ["cookie"],
+    },
+    // interpolation: {
+    //     escapeValue: false,
+    // },
+  });
 
 export default i18n;

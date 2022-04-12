@@ -100,18 +100,21 @@
 
 #successAnimation.animated {
   -webkit-animation: 1s ease-out 1.2s 1 both scaleAnimation;
-          animation: 1s ease-out 1.2s 1 both scaleAnimation;
+  animation: 1s ease-out 1.2s 1 both scaleAnimation;
 }
 #successAnimation.animated #successAnimationCircle {
-  -webkit-animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCircle, 0.3s linear 2.1s 1 both fadeOut;
-          animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCircle, 0.3s linear 2.1s 1 both fadeOut;
+  -webkit-animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCircle,
+    0.3s linear 2.1s 1 both fadeOut;
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCircle,
+    0.3s linear 2.1s 1 both fadeOut;
 }
 #successAnimation.animated #successAnimationCheck {
-  -webkit-animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCheck, 0.3s linear 2.1s 1 both fadeOut;
-          animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCheck, 0.3s linear 2.1s 1 both fadeOut;
+  -webkit-animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCheck,
+    0.3s linear 2.1s 1 both fadeOut;
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 1.2s 1 both drawCheck,
+    0.3s linear 2.1s 1 both fadeOut;
 }
 #successAnimation.animated #successAnimationResult {
   -webkit-animation: 0.3s linear 2.1s both fadeIn;
-          animation: 0.3s linear 2.1s both fadeIn;
+  animation: 0.3s linear 2.1s both fadeIn;
 }
-
