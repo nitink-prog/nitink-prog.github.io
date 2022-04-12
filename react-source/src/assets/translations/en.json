@@ -12,7 +12,7 @@
   "menu_experience": "Experience",
   "menu_contact": "Contact",
   "menu_resume": "RESUME",
-  "about_desc": "Hi! My name is Nitin K, and I'm an aspiring Software Engineer. Since graduating from CUNY JJAY with my B.S. in Computer Science, I've been continuing self-study through Udemy, YouTube, and reading documentation. My love for development started when I was just 12; I would build GUIs with Visual Studio, but I wasn't smart enough at the time to learn how to write functions to make those GUIs work. Now, I'm adept at React and its surrounding parts, so my buttons work when they're clicked on!",
+  "about_desc": "Hi! My name is Nitin K, and I'm an aspiring Software Engineer. Since graduating from CUNY JJAY with my B.S. in Computer Science, I've been continuing self-study through Udemy, YouTube, and reading documentation. My love for development started when I was just 12; I would build GUIs with Visual Studio, but I hadn't yet learned how to write functions to make those GUIs work. Now, I'm adept at React and its surrounding parts, so my buttons work when they're clicked on!",
   "experience_0_job": "Full stack web developer",
   "experience_0_overview": "Code Hub is a space where code lovers are based in Sousse: some are freelancers, some started their startups, others work as remote developers. it's a place where we discuss about new technologies, about IT solutions, about anything in relation to Code, we also do workshops and offer a calm coworking space to the members.",
   "experience_0_duration": "Jan 2021 - Present",
